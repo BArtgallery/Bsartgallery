@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>B's Art Gallery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Art gallery">
+  <meta name="keywords" content="Manadala art, free style art">
+  <meta name="author" content="Binisha Kandel">
+
+<link rel="stylesheet" href="styles.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1{
+  color: white;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+/* change style of footer on hover */
+h1 a:hover {
+  background-color: #pink;
+  color: White;
+}
+
+/* change style of footer */
+h1 a {
+  display: block;
+  color: #f2f2f2;
+  padding: 10px 10px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+  }
+
+    .bodytop {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  /* Responsive layout - makes the three images stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .bodytop {
+    width: 100%;
+  }
+  }
+
+
+
+
+img:hover {
+  transform: scaleX(-1);
+}
+blockquote {
+  margin-left: 0;
+  text-align: center;
+  font-size: 20px;
+}
+em { 
+  font-style: italic;
+}
+h3{
+  font-style: italic;
+}
+strong{
+  font-weight:bold;
+}
+</style>
+</head>
+
+<body >
+<div class="topic">
+  <p>B's Art Gallery</p>
+</div>
+
+<div class="navigation">
+  <a href="index.html">Home</a>
+  <a href="About.html"> About Me</a>
+  <a href="Privacy.html">Privacy Policy</a>
+  <a href="TermsOfUse.html">Terms of Use</a>
+  <a href="Contact.html">Contact Us</a>
+  
+</div>
+<DIV class="images">
+  <div class="bodytop">
+  <img src="mainimage.jpeg" height="320px" width="100%">
+</div>
+  <div class="bodytop">
+  <img src="butterfly.jpeg" height="320px" width="100%">
+</div>
+  <div class="bodytop">
+  <img src="thumpsup.jpeg" height="320px" width="100%">
+  </div>
+  </DIV>
+
+  <div class="row">
+  <div class="column">
+<a href="digitalart.html">
+
+  <h1> Digital Art</h1>
+</a>
+<a href="digitalart.html">
+    <img src="digitalart.jpeg" class="w3-border" alt="digital art" style="padding:4px;width:100%">
+</a>
+  </div>
+  <div class="column">
+<a href="freestyle.html">
+  <h1>Free Style</h1>
+</a>
+<a href="freestyle.html">
+    <img src="freestyle.jpeg" alt="Free style" style="width:100%">
+</a>
+	</div>
+</div>
+</br>
+
+  <h3>May your Life be full of color.</h3>
+
+<blockquote cite="https://www.artistlane.com.au/artist/julie-ahmad/">
+ <em> "I paint in an intuitive style, not always having the final outcome in mind from the start. It’s a journey and practice in patience and trust, 
+   getting there and discovering where the canvas will lead me, is often full of surprises. Living almost a decade in New York City, working in the fashion industry,
+    texture and color are second nature to me, the cross over to fine art was natural. The city is where my taste and style was molded,
+     I love bringing that cosmopolitan energy into my work and sharing it with the world" <strong>-Julie Ahmad</strong></em>
+ </blockquote>
+  <div class="footer">
+  <p>@ B's Art Gallery</p>
+  <p>Bini's Artwork</p>
+  <p>All right reserved</p>
+  <p>Web publishing Assignment</p>
+  <div class="botnav">
+   <a href="Termsofuse.html">Terms of Use</a> 
+  <a href="Privacy.html">Privacy Policy</a>
+  </div>
+
+</body>
+
+</html>
